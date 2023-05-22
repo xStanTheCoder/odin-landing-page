@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header,
+footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 15%;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.info {
+  display: flex;
+  padding: 100px 15%;
+  gap: 10px;
+}
+
+.text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.main-text {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+button {
+  font-weight: bold;
+  background-color: #3882f6;
+  color: inherit;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 10px;
+}
+
+.image {
+  width: 50%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+}
+
+#one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20%;
+}
+
+.information-header {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.containers {
+  display: flex;
+  gap: 25px;
+  padding: 50px 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+}
+
+#two {
+  background-color: #e5e7eb;
+  padding: 75px 20%;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.signature {
+  font-weight: bold;
+  text-align: right;
+}
+
+#three {
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+  padding: 50px 15%;
+}
+
+.blue-container {
+  background-color: #3882f6;
+  width: 100%;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: space-between;
+  color: #e5e7eb;
+  border-radius: 10px;
+}
+
+.blue-container button {
+  font-weight: bold;
+  background-color: #3882f6;
+  color: inherit;
+  padding: 10px 40px;
+  border: 2px solid #e5e7eb;
+  border-radius: 10px;
+}
+
+.call {
+  font-weight: bold;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0;
+}
